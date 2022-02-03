@@ -1,0 +1,53 @@
+.main__user {
+    .main__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .main__user {
+    display: flex;
+    margin-bottom: 30px;
+    p{
+        margin-left: 20px;
+    }}
+    .main__buttons {
+        margin-right: 180px;
+    }
+    }
+  
+
+    .user-media {
+        display: flex;
+
+        .media__item {
+            width: 250px;
+              margin-right: 40px;
+            .media__img {
+                width: 250px;
+                border-radius: 14px;
+                overflow: hidden;
+                height: 155px;
+                img{
+                    width: 100%; 
+                }
+            }
+            p {
+                margin-top: 10px;
+                margin-bottom: 4px;
+                padding: 0;
+            }
+            .media__details {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+   
+    }
+
+}
+
+.navlink {
+    color: inherit;
+    text-decoration: none;
+}
+
+

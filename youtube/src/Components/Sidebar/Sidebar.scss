@@ -1,0 +1,217 @@
+.sidebar {
+margin-left: 32px;
+list-style: none;
+}
+
+.pages {
+    list-style: none;
+    padding-left: 32px;
+    & >* {
+        margin-bottom: 29px;
+    }
+
+    .pages__home {
+        position: relative;
+        &::before {
+            content: '';
+            background: url('../../Libs/images/home.svg')
+                no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: -32px;
+            width: 16px;
+            height: 21px;
+            z-index: 1;
+        }
+    }
+    
+    .pages__trending {
+        position: relative;
+    }
+
+    .pages__trending::before {
+        content: '';
+        background: url('../../Libs/images/fire.svg')
+            no-repeat center center/cover;
+        position: absolute;
+        top: 0px;
+        left: -32px;
+        width: 16px;
+        height: 21px;
+        z-index: 1;
+        
+    }
+    
+    .pages__subsictirptors {
+        margin-bottom: 62px;
+        position: relative;
+        &::before {
+            content: '';
+            background: url('../../Libs/images/subs.svg')
+                no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: -32px;
+            width: 16px;
+            height: 21px;
+            z-index: 1;
+        }  
+    }
+}
+
+.detailss {
+    list-style: none;
+    padding-left: 32px;
+    & >* {
+        margin-bottom: 29px;
+    }
+
+    .details__library {
+        position: relative;
+        &::before {
+            content: '';
+            background: url('../../Libs/images/doc.svg')
+                no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: -32px;
+            width: 16px;
+            height: 21px;
+            z-index: 1;
+        }
+
+    }
+
+    .details__history {
+        position: relative;
+        &::before {
+            content: '';
+            background: url('../../Libs/images/history.svg')
+                no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: -32px;
+            width: 16px;
+            height: 21px;
+            z-index: 1;
+        }
+    }
+
+    .details__watch {
+        position: relative;
+        &::before {
+            content: '';
+            background: url('../../Libs/images/clock.svg')
+                no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: -32px;
+            width: 16px;
+            height: 21px;
+            z-index: 1;
+        }
+
+    }
+
+    .details__favourite {
+        position: relative;
+        &::before {
+            content: '';
+            background: url('../../Libs/images/star.svg')
+                no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: -32px;
+            width: 16px;
+            height: 21px;
+            z-index: 1;
+        }
+
+    }
+
+    .details__liked {
+        position: relative;
+        &::before {
+            content: '';
+            background: url('../../Libs/images/like.svg')
+                no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: -32px;
+            width: 16px;
+            height: 21px;
+            z-index: 1;
+        }
+
+    }
+
+    .details__music {
+        position: relative;
+        &::before {
+            content: '';
+            background: url('../../Libs/images/music.svg')
+                no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: -32px;
+            width: 16px;
+            height: 21px;
+            z-index: 1;
+        }
+
+    }
+
+    .details__game {
+        position: relative;
+        &::before {
+            content: '';
+            background: url('../../Libs/images/game.svg')
+                no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: -32px;
+            width: 16px;
+            height: 21px;
+            z-index: 1;
+        }
+    }
+
+    .details__more {
+        position: relative;
+        &::before {
+            content: '';
+            background: url('../../Libs/images/more.svg')
+                no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: -32px;
+            width: 16px;
+            height: 21px;
+            z-index: 1;
+        }
+    }
+}
+
+.sidebar h3.subs {
+    
+    font-size: 18px;
+    margin: 58px 0 30px 0;
+}
+
+.subs__list {
+    list-style: none;
+    padding-left: 0;
+    .navlink {
+        display: flex;
+        color: inherit;
+        text-decoration: none;
+    }
+    p {
+        margin-left: 10px;
+    }
+
+}
+
+
+
+

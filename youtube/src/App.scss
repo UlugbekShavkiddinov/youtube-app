@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+@import url('./nomralize.css');
+
+body {
+  font-family: 'Mulish';
+  background: rgb(0, 0, 0);
+  color: white;
+  font-size: 16px;
+}
+
+.menu-names {
+  opacity: .5;
+  line-height: 20px;
+}
+
+.accounts {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+.details {
+  font-size: 13px;
+  line-height: 16px;
+  opacity: .5px;
+}
+.media-title {
+  font-weight: 700;
+}
+
+

@@ -1,0 +1,148 @@
+.main_video {
+    padding: 0;
+    width: 1363px;
+    margin-left: 80px;
+
+    .video__img {
+        width: 1363px;
+        height: 700px;
+        margin-bottom: 20px;
+        border-radius: 14px;
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    .view {
+        font-size: 20px;
+        color: #C2C2C2;
+        padding: 0;
+        margin: 0;
+        margin-top: 14px;
+        
+    }
+
+
+    .video__details {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(216, 216, 216, 0.5);
+        padding-bottom: 20px;
+        .video__names {
+
+        }
+        p.accounts {
+            padding: 0;
+            margin: 0;
+        }
+        .video__likes {
+            .like {
+                position: relative;
+                &::before {
+                    content: '';
+                    background: url('../../Libs/images/likes.svg')
+                        no-repeat center center/cover;
+                    position: absolute;
+                    top: 13.5px;
+                    left: 19px;
+                    width: 14px;
+                    height: 13px;
+                    z-index: 10;
+                }
+            }
+            .dislike {
+                position: relative;
+                &::before {
+                    content: '';
+                    background: url('../../Libs/images/dislikes.svg')
+                        no-repeat center center/cover;
+                    position: absolute;
+                    top: 12.5px;
+                    left: 19px;
+                    width: 14px;
+                    height: 13px;
+                    z-index: 10;
+                }
+            }
+            .share {
+                position: relative;
+                &::before {
+                    content: '';
+                    background: url('../../Libs/images/share.svg')
+                        no-repeat center center/cover;
+                    position: absolute;
+                    top: 13.5px;
+                    left: 19px;
+                    width: 14px;
+                    height: 13px;
+                    z-index: 10;
+                }
+            }
+            :last-child {
+                margin-right: 0;
+                position: relative;
+            }
+
+            button {
+                color: white;
+                border: none;
+                border-radius: 100px;
+                background: rgba(255, 255, 255, 0.24);
+                padding: 10px 20px 10px 42px;
+                margin-right: 10px;
+                margin-top: 30px;
+            }
+            
+        }
+    }
+
+    .video-owner {
+        display: flex;
+        margin-top: 38px;
+
+        .owner__img {
+            margin-right: 12px;
+            img {
+                width: 80px;
+                height: 80px;
+            }
+
+        }
+        .video-owner__text {
+            width: 820px;
+            position: relative;
+            p {
+                padding: 0;
+                margin: 0;
+                opacity: .6;
+            }
+            span.details {
+                margin-bottom: 14px;
+                margin-top: 4px;
+                display: inline-block;
+            }
+            .video__more {
+                font-size: 20px;
+                margin-top: 15px;
+            }
+        }
+        .video-owner__btn {
+            position: absolute;
+            margin-left: auto;
+            background: #FF0000;
+            color: white;
+            border-radius: 20px;
+            padding: 10px 20px;
+            border: none;
+            left: 1214px;
+
+
+
+        }
+    }
+
+
+}

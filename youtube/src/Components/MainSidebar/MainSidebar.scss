@@ -1,0 +1,68 @@
+.video__user {
+    margin-left: 40px;
+    .video__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        p.accounts {
+            font-weight: 700;
+            font-size: 36px;
+        }
+        flex-direction: row;
+        .video__userr {
+    display: flex;
+    p{
+        
+    }}
+    .video__buttons {
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+    }
+    }
+  
+
+    .user-video {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+
+        .video__item {
+            width: 367px;
+            margin-bottom: 23px;
+              .video-title {
+                  font-weight: 700;
+                  margin-top: 13px;
+                  margin-bottom: 11px;
+                  font-size: 26px;
+              }
+            .video__img {
+                width: 367px;
+                border-radius: 14px;
+                overflow: hidden;
+                height: 213px;
+                img{
+                    width: 100%; 
+                }
+            }
+            p {
+                margin-top: 10px;
+                margin-bottom: 4px;
+                padding: 0;
+            }
+            .video__details {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+   
+    }
+
+}
+
+
